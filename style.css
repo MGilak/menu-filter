@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 226, 233);
+}
+.container{
+    margin-top: 50px;
+    width: 100vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/****** title ******/
+
+.container h1{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+}
+.underline{
+    border-bottom: 3.5px solid #aa885d;
+    width: 65px;
+    border-radius: 5px;
+    margin: 7px auto;
+}
+
+/******** buttons ********/
+
+.btn_container{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    border-radius: 6px;
+    border: 2px solid #927958;
+    padding: 5px 10px;
+    color: #997a52;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #927958;
+    color: #fff;
+    cursor: pointer;
+}
+
+/******* menu_foods *******/
+
+.menu_foods{
+    width: 85vw;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu_item{
+    display: flex;
+    margin-bottom: 30px;
+}
+.menu_item img{
+    width: 200px;
+    height: 120px;
+    border-radius: 6px;
+    border: 3px solid #b6966d;
+    object-fit: cover;
+    cursor: pointer;
+}
+.item_title{
+    display: flex;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(204, 204, 204);
+}
+.item_des{
+    width: 250px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.price{
+    color: #b6966d;
+}
+.item_text p{
+    color: gray;
+    margin-top: 18px;
+}
+
+
+
